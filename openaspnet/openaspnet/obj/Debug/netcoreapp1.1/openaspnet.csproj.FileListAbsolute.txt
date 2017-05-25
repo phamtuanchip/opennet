@@ -1,0 +1,9 @@
+D:\projects\opennet\openaspnet\openaspnet\bin\Debug\netcoreapp1.1\openaspnet.deps.json
+D:\projects\opennet\openaspnet\openaspnet\bin\Debug\netcoreapp1.1\openaspnet.runtimeconfig.json
+D:\projects\opennet\openaspnet\openaspnet\bin\Debug\netcoreapp1.1\openaspnet.runtimeconfig.dev.json
+D:\projects\opennet\openaspnet\openaspnet\bin\Debug\netcoreapp1.1\openaspnet.dll
+D:\projects\opennet\openaspnet\openaspnet\bin\Debug\netcoreapp1.1\openaspnet.pdb
+D:\projects\opennet\openaspnet\openaspnet\obj\Debug\netcoreapp1.1\openaspnet.csprojResolveAssemblyReference.cache
+D:\projects\opennet\openaspnet\openaspnet\obj\Debug\netcoreapp1.1\openaspnet.AssemblyInfo.cs
+D:\projects\opennet\openaspnet\openaspnet\obj\Debug\netcoreapp1.1\openaspnet.dll
+D:\projects\opennet\openaspnet\openaspnet\obj\Debug\netcoreapp1.1\openaspnet.pdb
