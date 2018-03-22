@@ -1,0 +1,59 @@
+08:58:56	Object reference not set to an instance of an object.
+08:58:56	Object reference not set to an instance of an object.
+08:58:56	Logout failedSystem.InvalidOperationException: ExecuteNonQuery: Connection property has not been initialized.
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at iData.WebService.Service.SignOut(String sessionId)
+08:58:57	System.ServiceModel.FaultException: System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.InvalidOperationException: There was an error generating the XML document. ---> System.InvalidOperationException: The type xSystem.BPM.UserDS+UserDataTable may not be used in this context. To use xSystem.BPM.UserDS+UserDataTable as a parameter, return type, or member of a class or struct, the parameter, return type, or member must be declared as type xSystem.BPM.UserDS+UserDataTable (it cannot be object). Objects of type xSystem.BPM.UserDS+UserDataTable may not be used in un-typed collections, such as ArrayLists.
+   at System.Xml.Serialization.XmlSerializationWriter.WriteTypedPrimitive(String name, String ns, Object o, Boolean xsiType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write3_Object(String n, String ns, Object o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write4_ReturnMessage(String n, String ns, ReturnMessage o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write6_RequestResponse(Object[] p)
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   at System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   at System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   at System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at iData.Service.iDataWS.ServiceSoap.Request(RequestRequest request)
+   at iData.Service.iDataWS.ServiceSoapClient.iData.Service.iDataWS.ServiceSoap.Request(RequestRequest request)
+   at iData.Service.iDataWS.ServiceSoapClient.Request(String xml)
+   at DataHandler.BPM.SignIn(HttpContext context, SoapClient controller)
+08:59:13	System.ServiceModel.FaultException: System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.InvalidOperationException: There was an error generating the XML document. ---> System.InvalidOperationException: The type xSystem.BPM.UserDS+UserDataTable may not be used in this context. To use xSystem.BPM.UserDS+UserDataTable as a parameter, return type, or member of a class or struct, the parameter, return type, or member must be declared as type xSystem.BPM.UserDS+UserDataTable (it cannot be object). Objects of type xSystem.BPM.UserDS+UserDataTable may not be used in un-typed collections, such as ArrayLists.
+   at System.Xml.Serialization.XmlSerializationWriter.WriteTypedPrimitive(String name, String ns, Object o, Boolean xsiType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write3_Object(String n, String ns, Object o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write4_ReturnMessage(String n, String ns, ReturnMessage o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write6_RequestResponse(Object[] p)
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   at System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   at System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   at System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at iData.Service.iDataWS.ServiceSoap.Request(RequestRequest request)
+   at iData.Service.iDataWS.ServiceSoapClient.iData.Service.iDataWS.ServiceSoap.Request(RequestRequest request)
+   at iData.Service.iDataWS.ServiceSoapClient.Request(String xml)
+   at DataHandler.BPM.SignIn(HttpContext context, SoapClient controller)

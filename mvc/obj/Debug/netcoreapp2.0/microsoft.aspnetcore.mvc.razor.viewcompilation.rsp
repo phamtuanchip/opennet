@@ -1,0 +1,12 @@
+/home/tuanp/opennet/mvc
+--output-path=obj/Debug/netcoreapp2.0/
+--application-name=mvc
+--content-root=/home/tuanp/opennet/mvc
+--file=/home/tuanp/opennet/mvc/Views/Home/About.cshtml
+--file=/home/tuanp/opennet/mvc/Views/Home/Contact.cshtml
+--file=/home/tuanp/opennet/mvc/Views/Home/Index.cshtml
+--file=/home/tuanp/opennet/mvc/Views/Shared/Error.cshtml
+--file=/home/tuanp/opennet/mvc/Views/Shared/_Layout.cshtml
+--file=/home/tuanp/opennet/mvc/Views/Shared/_ValidationScriptsPartial.cshtml
+--file=/home/tuanp/opennet/mvc/Views/_ViewImports.cshtml
+--file=/home/tuanp/opennet/mvc/Views/_ViewStart.cshtml

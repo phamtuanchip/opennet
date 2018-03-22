@@ -1,0 +1,10 @@
+/home/tuanp/opennet/mvc/bin/Debug/netcoreapp2.0/mvc.deps.json
+/home/tuanp/opennet/mvc/bin/Debug/netcoreapp2.0/mvc.runtimeconfig.json
+/home/tuanp/opennet/mvc/bin/Debug/netcoreapp2.0/mvc.runtimeconfig.dev.json
+/home/tuanp/opennet/mvc/bin/Debug/netcoreapp2.0/mvc.dll
+/home/tuanp/opennet/mvc/bin/Debug/netcoreapp2.0/mvc.pdb
+/home/tuanp/opennet/mvc/obj/Debug/netcoreapp2.0/mvc.csproj.CoreCompileInputs.cache
+/home/tuanp/opennet/mvc/obj/Debug/netcoreapp2.0/mvc.AssemblyInfoInputs.cache
+/home/tuanp/opennet/mvc/obj/Debug/netcoreapp2.0/mvc.AssemblyInfo.cs
+/home/tuanp/opennet/mvc/obj/Debug/netcoreapp2.0/mvc.dll
+/home/tuanp/opennet/mvc/obj/Debug/netcoreapp2.0/mvc.pdb

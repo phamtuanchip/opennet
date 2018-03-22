@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="iData.WebService.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false"/>
+    </sectionGroup>
+  </configSections>
+  <connectionStrings>
+      <!-- 
+    <add name="ApplicationServices" connectionString="Data Source=125.212.228.89;Initial Catalog=In.SH.ERP;User ID=In.SH.ERP;Password=In.SH.ERP" providerName="System.Data.SqlClient"/>
+   <add name="iData" connectionString="Data Source=125.212.228.89;Initial Catalog=In.SH.ERP;User ID=In.SH.ERP;Password=In.SH.ERP" providerName="System.Data.SqlClient"/>
+	
+	 
+	<add name="ApplicationServices" connectionString="Data Source=125.212.228.89;Initial Catalog=In.MAN_UAT;User ID=In.MAN_UAT;Password=In.MAN_UAT" providerName="System.Data.SqlClient"/>
+	<add name="iData" connectionString="Data Source=125.212.228.89;Initial Catalog=In.MAN_UAT;User ID=In.MAN_UAT;Password=In.MAN_UAT" providerName="System.Data.SqlClient"/>
+	
+	
+-->	
+	  <add name="ApplicationServices" connectionString="Data Source=125.212.228.89;Initial Catalog=In.MAN_STD;User ID=In.MAN_STD;Password=In.MAN_STD" providerName="System.Data.SqlClient"/>
+	<add name="iData" connectionString="Data Source=125.212.228.89;Initial Catalog=In.MAN_STD;User ID=In.MAN_STD;Password=In.MAN_STD" providerName="System.Data.SqlClient"/>
+	
+  </connectionStrings>
+  <system.web>
+    <compilation debug="false" targetFramework="4.0"/>
+    <httpRuntime requestValidationMode="2.0" maxRequestLength="2097151" executionTimeout="9000"/>
+    <machineKey validationKey="DE2BB2E79A459B3C69BC101ADBA0C0FEB4E40310" decryptionKey="1A0CFAF2115E8583152FE4BF2D95DFB914D1006DF3F71786" decryption="3DES" validation="SHA1" />
+    <authentication mode="Forms">
+      <forms name=".DOTNETNUKE" protection="All" timeout="60" cookieless="UseCookies" loginUrl="Security.asmx"/>
+    </authentication>
+    <membership>
+      <providers>
+        <clear/>
+        <add name="AspNetSqlMembershipProvider" type="System.Web.Security.SqlMembershipProvider, System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" connectionStringName="ApplicationServices" enablePasswordRetrieval="false" enablePasswordReset="true" requiresQuestionAndAnswer="false" requiresUniqueEmail="false" maxInvalidPasswordAttempts="5" minRequiredPasswordLength="6" minRequiredNonalphanumericCharacters="0" passwordAttemptWindow="10" applicationName="DotNetNuke" passwordFormat="Encrypted"/>
+      </providers>
+    </membership>
+    <roleManager enabled="true">
+      <providers>
+        <clear/>
+        <add name="AspNetSqlRoleProvider" type="System.Web.Security.SqlRoleProvider" connectionStringName="ApplicationServices" applicationName="DotNetNuke"/>
+        <add name="AspNetWindowsTokenRoleProvider" type="System.Web.Security.WindowsTokenRoleProvider" applicationName="DotNetNuke"/>
+      </providers>
+    </roleManager>
+    <pages controlRenderingCompatibilityVersion="3.5" clientIDMode="AutoID"/>
+  </system.web>
+  <applicationSettings>
+    <iData.WebService.Properties.Settings>
+      <setting name="SessionTimeOut" serializeAs="String">
+        <value>1200</value>
+      </setting>
+      <setting name="StockSynchronize" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="FireTrigger" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="CalculatorTrigger" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="LogLevel" serializeAs="String">
+        <value>0</value>
+      </setting>
+    </iData.WebService.Properties.Settings>
+  </applicationSettings>
+</configuration>
