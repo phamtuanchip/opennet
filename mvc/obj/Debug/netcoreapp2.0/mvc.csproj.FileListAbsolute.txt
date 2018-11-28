@@ -8,3 +8,14 @@
 /home/tuanp/opennet/mvc/obj/Debug/netcoreapp2.0/mvc.AssemblyInfo.cs
 /home/tuanp/opennet/mvc/obj/Debug/netcoreapp2.0/mvc.dll
 /home/tuanp/opennet/mvc/obj/Debug/netcoreapp2.0/mvc.pdb
+C:\projects\opennet\mvc\bin\Debug\netcoreapp2.0\mvc.deps.json
+C:\projects\opennet\mvc\bin\Debug\netcoreapp2.0\mvc.runtimeconfig.json
+C:\projects\opennet\mvc\bin\Debug\netcoreapp2.0\mvc.runtimeconfig.dev.json
+C:\projects\opennet\mvc\bin\Debug\netcoreapp2.0\mvc.dll
+C:\projects\opennet\mvc\bin\Debug\netcoreapp2.0\mvc.pdb
+C:\projects\opennet\mvc\obj\Debug\netcoreapp2.0\mvc.csprojResolveAssemblyReference.cache
+C:\projects\opennet\mvc\obj\Debug\netcoreapp2.0\mvc.csproj.CoreCompileInputs.cache
+C:\projects\opennet\mvc\obj\Debug\netcoreapp2.0\mvc.AssemblyInfoInputs.cache
+C:\projects\opennet\mvc\obj\Debug\netcoreapp2.0\mvc.AssemblyInfo.cs
+C:\projects\opennet\mvc\obj\Debug\netcoreapp2.0\mvc.dll
+C:\projects\opennet\mvc\obj\Debug\netcoreapp2.0\mvc.pdb

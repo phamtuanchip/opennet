@@ -12535,28 +12535,33 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\phamt\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "/home/tuanp/opennet/mvc/mvc.csproj",
+      "projectUniqueName": "C:\\projects\\opennet\\mvc\\mvc.csproj",
       "projectName": "mvc",
-      "projectPath": "/home/tuanp/opennet/mvc/mvc.csproj",
-      "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/home/tuanp/opennet/mvc/obj/",
+      "projectPath": "C:\\projects\\opennet\\mvc\\mvc.csproj",
+      "packagesPath": "C:\\Users\\phamt\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\opennet\\mvc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\phamt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
